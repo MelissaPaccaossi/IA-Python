@@ -3,7 +3,7 @@ ID,Titulo,Genero
 2,Matrix,Acción|Ciencia ficción
 3,El Padrino,Drama|Crimen
 4,Los Increíbles,Animación|Familia|Aventura
-5,Gladiador,Acción|Drama|Historia
+5,Gladiador,Acción|Drama
 6,Origen,Ciencia ficción|Thriller
 7,Interstellar,Ciencia ficción|Drama
 8,La La Land,Musical|Romance|Drama
@@ -29,3 +29,4 @@ ID,Titulo,Genero
 28,Coco,Animación|Familia|Fantasía
 29,El Viaje de Chihiro,Animación|Fantasía|Aventura
 30,1917,Drama|Guerra
+31,Argentina 1985,Drama|Crimen
