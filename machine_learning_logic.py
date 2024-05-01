@@ -3,7 +3,7 @@
 from flask import jsonify
 import pandas as pd
 
-def machine_learning_logic():
+def machine_learning_logic(usuario_en):
     # Importamos librerías
     import pandas as pd
     from math import sqrt  # Importaremos la función sqrt para la librería math
@@ -29,11 +29,11 @@ def machine_learning_logic():
 
     print('Peliculas codificadas: \n', peliculas_co)
 
-    usuario_en = [
-        {'Titulo': 'El Padrino', 'rating': 5},
-        {'Titulo': 'Los Increíbles', 'rating': 2},
-        {'Titulo': 'El Caballero de la Noche', 'rating': 1},
-    ]
+    # usuario_en = [
+    #     {'Titulo': 'El Padrino', 'rating': 5},
+    #     {'Titulo': 'Los Increíbles', 'rating': 2},
+    #     {'Titulo': 'El Caballero de la Noche', 'rating': 1},
+    # ]
 
     entrada_peli = pd.DataFrame(usuario_en)
     print('Peliculas Usuario: \n', entrada_peli)

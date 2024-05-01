@@ -11,7 +11,7 @@ def recomendar_peliculas():
     usuario_en = data.get('usuario_en', [])
     
     # Llamar a la función de machine learning
-    recomendaciones = machine_learning_logic()
+    recomendaciones = machine_learning_logic(usuario_en)
     
     # Resto del código...
     return recomendaciones
