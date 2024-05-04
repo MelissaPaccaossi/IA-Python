@@ -29,7 +29,10 @@ print('Grupos codificadas: \n', grupos_co)
 usuario_en = [
                 {'nombre':'Salta Cultural Tour','rating':3},                
                 {'nombre':'Bariloche Hiking Adventure','rating':5},                
-                {'nombre':'Viedma Birdwatching','rating':4},                
+                {'nombre':'Viedma Birdwatching','rating':4},              
+                {'nombre':'Villa La Angostura Lakeside','rating':5},           
+                {'nombre':'Pampa Gaucha Experience','rating':1},           
+                {'nombre':'Córdoba Nightlife Tour','rating':3},           
             ]
 
 entrada_grupos = pd.DataFrame(usuario_en)
@@ -54,41 +57,41 @@ print('Tabla Etiquetas: \n', tabla_etiquetas)
 perfil_usu = tabla_etiquetas.transpose().dot(entrada_grupos['rating'])
 print('Etiquetas que el usuario prefiere: \n', perfil_usu)
 
-# generos = peliculas_co.set_index(peliculas_co['ID'])
+etiquetas = grupos_co.set_index(grupos_co['grupoID'])
 
-# generos_a_mostrar = ['ID','Titulo','Genero']
-# generos = generos.drop(generos_a_mostrar, axis=1)
-# print('Generos: \n', generos.head())
-# generos.shape
+etiquetas_a_mostrar = ['grupoID','nombre','etiquetas']
+etiquetas = etiquetas.drop(etiquetas_a_mostrar, axis=1)
+print('Etiquetas: \n', etiquetas.head())
+etiquetas.shape
 
-# recom = ((generos*perfil_usu).sum(axis=1))/(perfil_usu.sum())
-# print('Recomendaciones: \n', recom.head())
+recom = ((etiquetas*perfil_usu).sum(axis=1))/(perfil_usu.sum())
+print('Recomendaciones: \n', recom.head())
 
-# recom = recom.sort_values(ascending=False)
-# print('Recomendaciones Organizadas: \n', recom.head())
+recom = recom.sort_values(ascending=False)
+print('Recomendaciones Organizadas: \n', recom.head())
 
-# final = peliculas.loc[peliculas['ID'].isin(recom.head(5).keys())]
-# nfinal = final[['Titulo']]
-# print('Nombre de peliculas recomendadas: \n', nfinal)
-
-
-# # Realizar un join entre las recomendaciones y la tabla de películas
-# recomendaciones_organizadas = pd.DataFrame(recom, columns=['Similaridad'])
-# recomendaciones_organizadas.reset_index(inplace=True)
-# recomendaciones_organizadas.rename(columns={'index': 'ID'}, inplace=True)
-
-# recomendaciones_con_info = pd.merge(recomendaciones_organizadas, peliculas, on='ID', how='left')
-
-# print('Recomendaciones con información de películas: \n', recomendaciones_con_info.head())
+final = gruposcopia.loc[gruposcopia['grupoID'].isin(recom.head(5).keys())]
+nfinal = final[['nombre']]
+print('Nombre de grupos recomendadas: \n', nfinal)
 
 
-# # Lista de títulos de películas del usuario
-# titulos_usuario = [entrada['Titulo'] for entrada in usuario_en]
+# Realizar un join entre las recomendaciones y la tabla de películas
+recomendaciones_organizadas = pd.DataFrame(recom, columns=['Similaridad'])
+recomendaciones_organizadas.reset_index(inplace=True)
+recomendaciones_organizadas.rename(columns={'index': 'grupoID'}, inplace=True)
 
-# # Filtrar las recomendaciones para excluir las películas del usuario
-# recomendaciones_filtradas = recomendaciones_con_info[~recomendaciones_con_info['Titulo'].isin(titulos_usuario)]
+recomendaciones_con_info = pd.merge(recomendaciones_organizadas, gruposcopia, on='grupoID', how='left')
 
-# print('Recomendaciones sin películas del usuario: \n', recomendaciones_filtradas.head())
+print('Recomendaciones con información de películas: \n', recomendaciones_con_info.head())
+
+
+# Lista de títulos de películas del usuario
+nombres_usuario = [entrada['nombre'] for entrada in usuario_en]
+
+# Filtrar las recomendaciones para excluir las películas del usuario
+recomendaciones_filtradas = recomendaciones_con_info[~recomendaciones_con_info['nombre'].isin(nombres_usuario)]
+
+print('Recomendaciones sin grupos visitados por el usuario: \n', recomendaciones_filtradas.head())
 
 
 
