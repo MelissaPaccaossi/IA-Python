@@ -26,3 +26,16 @@ donde el json que espera recibir en el body es el siguiente:
 
 Lo que hace el servidor una vez recibida el objeto ejecuta un script con la logica de la recomendacion
 luego retorna el resultado
+
+
+
+{
+    "usuario_en" : [
+        {"nombre":"Salta Cultural Tour","rating":3},                
+        {"nombre":"Bariloche Hiking Adventure","rating":5},                
+        {"nombre":"Viedma Birdwatching","rating":4},              
+        {"nombre":"Villa La Angostura Lakeside","rating":5},           
+        {"nombre":"Pampa Gaucha Experience","rating":1},           
+        {"nombre":"Córdoba Nightlife Tour","rating":3}          
+    ]
+}

@@ -90,7 +90,6 @@ nombres_usuario = [entrada['nombre'] for entrada in usuario_en]
 
 # Filtrar las recomendaciones para excluir las películas del usuario
 recomendaciones_filtradas = recomendaciones_con_info[~recomendaciones_con_info['nombre'].isin(nombres_usuario)]
-
 print('Recomendaciones sin grupos visitados por el usuario: \n', recomendaciones_filtradas.head())
 
 
