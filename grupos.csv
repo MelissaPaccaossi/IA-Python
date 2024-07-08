@@ -1,52 +1,54 @@
 grupoID,nombre,etiquetas
-1,Bariloche Ski Trip,Bariloche|Cerro Catedral|hotel|50|2024-07-15|2024-07-20
-2,Patagonia Adventure,Ushuaia|El Calafate|hostel|30|2024-08-10|2024-08-20
-3,Mendoza Wine Tour,Mendoza|San Rafael|hotel|40|2024-09-05|2024-09-10
-4,Saltos del Moconá,Posadas|Saltos del Moconá|casa|20|2024-06-20|2024-06-25
-5,Cataratas del Iguazú,Puerto Iguazú|Cataratas del Iguazú|hotel|60|2024-07-05|2024-07-10
-6,Bariloche Snowboarding,Bariloche|Cerro Catedral|departamento|35|2024-08-01|2024-08-05
-7,Glacier Trekking,El Calafate|Glaciar Perito Moreno|hotel|25|2024-09-20|2024-09-25
-8,Salta Cultural Tour,Salta|Cafayate|hotel|45|2024-06-10|2024-06-15
-9,Trekking en el Chaltén,El Chaltén|Fitz Roy|hostel|40|2024-07-20|2024-07-25
-10,Misiones Jesuíticas,Oberá|San Ignacio Mini|hotel|30|2024-08-05|2024-08-10
-11,Turismo Rural Cordobés,Villa General Belgrano|Alta Gracia|casa|15|2024-09-10|2024-09-15
-12,Buenos Aires City Tour,Buenos Aires|Tigre|hotel|50|2024-06-15|2024-06-20
-13,Mar del Plata Beach Trip,Mar del Plata|Miramar|hotel|70|2024-07-10|2024-07-15
-14,Tucumán Historical Tour,San Miguel de Tucumán|Tafí del Valle|hotel|40|2024-08-15|2024-08-20
-15,Jujuy Adventure,Purmamarca|Quebrada de Humahuaca|hostel|30|2024-09-25|2024-09-30
-16,Valle de la Luna,San Juan|Valle de la Luna|hotel|25|2024-06-25|2024-06-30
-17,Córdoba Nightlife Tour,Córdoba|Villa Carlos Paz|hotel|60|2024-07-30|2024-08-05
-18,Rosario Gastronomic Tour,Rosario|San Lorenzo|departamento|35|2024-08-05|2024-08-10
-19,La Plata Cultural Experience,La Plata|Ensenada|casa|20|2024-09-15|2024-09-20
-20,Península Valdés Wildlife,Puerto Madryn|Península Valdés|hotel|50|2024-06-01|2024-06-05
-21,Colón Thermal Springs,Colón|Termas de Colón|hotel|30|2024-07-25|2024-07-30
-22,Neuquén Vineyard Tour,Neuquén|San Patricio del Chañar|hostel|40|2024-08-20|2024-08-25
-23,Pampa Gaucha Experience,Santa Rosa|General Pico|casa|25|2024-09-05|2024-09-10
-24,Quebrada de las Conchas,Cafayate|Quebrada de las Conchas|hotel|35|2024-06-10|2024-06-15
-25,El Bolsón Artisan Fair,El Bolsón|Lago Puelo|departamento|30|2024-07-05|2024-07-10
-26,Bariloche Hiking Adventure,Bariloche|Cerro Tronador|hotel|45|2024-08-30|2024-09-05
-27,Villa Gesell Beach Getaway,Villa Gesell|Mar de las Pampas|casa|20|2024-09-20|2024-09-25
-28,Termas de Río Hondo Spa Retreat,Termas de Río Hondo|Termas de Río Hondo|hotel|60|2024-06-15|2024-06-20
-29,El Calafate Glacier Cruise,El Calafate|Lago Argentino|hotel|35|2024-07-10|2024-07-15
-30,San Martín de los Andes,San Martín de los Andes|Cerro Chapelco|departamento|40|2024-08-05|2024-08-10
-31,Trelew Paleontological Tour,Trelew|Valle Inferior del Río Chubut|hostel|25|2024-09-10|2024-09-15
-32,Purmamarca Mountain Biking,Purmamarca|Cerro de los Siete Colores|hotel|30|2024-06-25|2024-06-30
-33,Tandil Rock Climbing,Tandil|Sierras de Tandil|hotel|45|2024-07-30|2024-08-05
-34,Merlo Sierra de los Comechingones,Merlo|Sierra de los Comechingones|casa|20|2024-08-20|2024-08-25
-35,Villa La Angostura Lakeside,Villa La Angostura|Lago Nahuel Huapi|departamento|35|2024-09-05|2024-09-10
-36,Salta Gastronomic Tour,Salta|Cachi|hotel|40|2024-06-10|2024-06-15
-37,Potrerillos Adventure,Potrerillos|Embalse Potrerillos|hotel|50|2024-07-05|2024-07-10
-38,Tafi del Valle Hiking,Tafí del Valle|Cerro El Churqui|hostel|25|2024-07-20|2024-07-25
-39,La Rioja Vineyard Tour,La Rioja|Chilecito|hotel|30|2024-08-15|2024-08-20
-40,San Luis Adventure,San Luis|Sierras de San Luis|casa|20|2024-09-25|2024-09-30
-41,Mar del Plata Surfing Trip,Mar del Plata|Mar del Plata|departamento|35|2024-06-30|2024-07-05
-42,Viedma Birdwatching,Viedma|Playa El Cóndor|hotel|40|2024-07-15|2024-07-20
-43,Villa Carlos Paz Lakeside,Villa Carlos Paz|Lago San Roque|hostel|25|2024-08-01|2024-08-05
-44,Las Grutas Beach Break,Las Grutas|Las Grutas|hotel|30|2024-08-25|2024-08-30
-45,Rosario River Kayaking,Rosario|Río Paraná|casa|20|2024-09-10|2024-09-15
-46,Villa Gesell Nightlife,Villa Gesell|Mar Azul|hotel|40|2024-06-05|2024-06-10
-47,Santa Fe Cultural Tour,Santa Fe|Rosario|hotel|45|2024-07-20|2024-07-25
-48,Esquel Ski Resort,Esquel|La Hoya|departamento|50|2024-08-10|2024-08-15
-49,Mar del Plata Gastronomic Tour,Mar del Plata|Mar del Plata|hostel|25|2024-09-05|2024-09-10
-50,El Calafate Birdwatching,El Calafate|Lago Argentino|hotel|30|2024-06-20|2024-06-25
+1,Bariloche Ski Trip,Bariloche|Cerro Catedral|hotel|50|Patagonia|adulto|indistinto
+2,Patagonia Adventure,Ushuaia|El Calafate|hostel|30|Patagonia|joven|femenino
+3,Mendoza Wine Tour,Mendoza|San Rafael|hotel|40|Cuyo|joven|masculino
+4,Saltos del Moconá,Posadas|Saltos del Moconá|casa|20|Mesopotámica|adolescente|indistinto
+5,Cataratas del Iguazú,Puerto Iguazú|Cataratas del Iguazú|hotel|60|Mesopotámica|adulto|femenino
+6,Bariloche Snowboarding,Bariloche|Cerro Catedral|hotel|45|Patagonia|joven|masculino
+7,Glacier Trekking,El Calafate|Glaciar Perito Moreno|hotel|25|Patagonia|adolescente|indistinto
+8,Salta Cultural Tour,Salta|Cafayate|hotel|45|NOA|adulto|femenino
+9,Trekking en el Chaltén,El Chaltén|Fitz Roy|hostel|40|Patagonia|joven|masculino
+10,Misiones Jesuíticas,Oberá|San Ignacio Mini|hotel|30|Mesopotámica|joven|indistinto
+11,Turismo Rural Cordobés,Villa General Belgrano|Alta Gracia|casa|15|Sierras Pampeanas|adolescente|femenino
+12,Buenos Aires City Tour,Buenos Aires|Tigre|hotel|50|Pampeana|adulto|masculino
+13,Mar del Plata Beach Trip,Mar del Plata|Miramar|hotel|70|Pampeana|adulto|indistinto
+14,Tucumán Historical Tour,San Miguel de Tucumán|Tafí del Valle|hotel|40|NOA|joven|femenino
+15,Jujuy Adventure,Purmamarca|Quebrada de Humahuaca|hostel|30|NOA|joven|masculino
+16,Valle de la Luna,San Juan|Valle de la Luna|hotel|25|Cuyo|adolescente|indistinto
+17,Córdoba Nightlife Tour,Córdoba|Villa Carlos Paz|hotel|60|Sierras Pampeanas|adulto|femenino
+18,Rosario Gastronomic Tour,Rosario|San Lorenzo|departamento|35|Pampeana|joven|masculino
+19,La Plata Cultural Experience,La Plata|Ensenada|casa|20|Pampeana|adolescente|indistinto
+20,Península Valdés Wildlife,Puerto Madryn|Península Valdés|hotel|50|Patagonia|adulto|femenino
+21,Colón Thermal Springs,Colón|Termas de Colón|hotel|30|Mesopotámica|joven|masculino
+22,Neuquén Vineyard Tour,Neuquén|San Patricio del Chañar|hostel|40|Patagonia|joven|indistinto
+23,Pampa Gaucha Experience,Santa Rosa|General Pico|casa|25|Pampeana|adolescente|femenino
+24,Quebrada de las Conchas,Cafayate|Quebrada de las Conchas|hotel|35|NOA|joven|masculino
+25,El Bolsón Artisan Fair,El Bolsón|Lago Puelo|departamento|30|Patagonia|joven|indistinto
+26,Bariloche Hiking Adventure,Bariloche|Cerro Tronador|hotel|45|Patagonia|joven|femenino
+27,Villa Gesell Beach Getaway,Villa Gesell|Mar de las Pampas|casa|20|Pampeana|adolescente|masculino
+28,Termas de Río Hondo Spa Retreat,Termas de Río Hondo|Termas de Río Hondo|hotel|60|NOA|adulto|indistinto
+29,El Calafate Glacier Cruise,El Calafate|Lago Argentino|hotel|35|Patagonia|joven|femenino
+30,San Martín de los Andes,San Martín de los Andes|Cerro Chapelco|departamento|40|Patagonia|joven|masculino
+31,Trelew Paleontological Tour,Trelew|Valle Inferior del Río Chubut|hostel|25|Patagonia|adolescente|indistinto
+32,Purmamarca Mountain Biking,Purmamarca|Cerro de los Siete Colores|hotel|30|NOA|joven|femenino
+33,Tandil Rock Climbing,Tandil|Sierras de Tandil|hotel|45|Pampeana|adulto|masculino
+34,Merlo Sierra de los Comechingones,Merlo|Sierra de los Comechingones|casa|20|Cuyo|adolescente|indistinto
+35,Villa La Angostura Lakeside,Villa La Angostura|Lago Nahuel Huapi|departamento|35|Patagonia|joven|femenino
+36,Salta Gastronomic Tour,Salta|Cachi|hotel|40|NOA|joven|masculino
+37,Potrerillos Adventure,Potrerillos|Embalse Potrerillos|hotel|50|Cuyo|adulto|indistinto
+38,Tafi del Valle Hiking,Tafí del Valle|Cerro El Churqui|hostel|25|NOA|adolescente|femenino
+39,La Rioja Vineyard Tour,La Rioja|Chilecito|hotel|30|Cuyo|joven|masculino
+40,San Luis Adventure,San Luis|Sierras de San Luis|casa|20|Cuyo|adolescente|indistinto
+41,Mar del Plata Surfing Trip,Mar del Plata|Mar del Plata|departamento|35|Pampeana|joven|femenino
+42,Viedma Birdwatching,Viedma|Playa El Cóndor|hotel|40|Patagonia|joven|masculino
+43,Villa Carlos Paz Lakeside,Villa Carlos Paz|Lago San Roque|hostel|25|Sierras Pampeanas|adolescente|indistinto
+44,Las Grutas Beach Break,Las Grutas|Las Grutas|hotel|30|Patagonia|adolescente|femenino
+45,Rosario River Kayaking,Rosario|Río Paraná|casa|20|Pampeana|adolescente|masculino
+46,Villa Gesell Nightlife,Villa Gesell|Mar Azul|hotel|40|Pampeana|joven|indistinto
+47,Santa Fe Cultural Tour,Santa Fe|Rosario|hotel|45|Pampeana|adulto|femenino
+48,Esquel Ski Resort,Esquel|La Hoya|departamento|50|Patagonia|adulto|masculino
+49,Mar del Plata Gastronomic Tour,Mar del Plata|Mar del Plata|hostel|2|Pampeana|adolescente|indistinto
+50,El Calafate Birdwatching,El Calafate|Lago Argentino|hotel|30|Patagonia|joven|femenino
+51,Aventura en Tilcara,Tilcara|Pucará de Tilcara|hostel|35|NOA|joven|masculino
+52,Exploración en los Valles Calchaquíes,San Carlos|Angastaco|hotel|30|NOA|adulto|indistinto
 
