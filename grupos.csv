@@ -1,86 +1,83 @@
 grupoID,nombre,etiquetas
-1,Viaje de Esquí en Bariloche,Bariloche|Cerro Catedral|hotel|50|Patagonia|Adulto(26-45)|INDISTINTO
-2,Aventura en Patagonia,Ushuaia|El Calafate|hostel|30|Patagonia|Joven(18-25)|FEMENINO
-3,Tour del Vino en Mendoza,Mendoza|San Rafael|hotel|40|Cuyo|Joven(18-25)|MASCULINO
-4,Exploración en Saltos del Moconá,Posadas|Saltos del Moconá|casa|20|Mesopotamia|Adulto mayor(50 en adelante)|INDISTINTO
-5,Visita a las Cataratas del Iguazú,Puerto Iguazú|Cataratas del Iguazú|hotel|60|Mesopotamia|Adulto(26-45)|FEMENINO
-6,Snowboarding en Bariloche,Bariloche|Cerro Catedral|hotel|45|Patagonia|Joven(18-25)|MASCULINO
-7,Trekking en el Glaciar,El Calafate|Glaciar Perito Moreno|hotel|25|Patagonia|Adulto mayor(50 en adelante)|INDISTINTO
-8,Tour Cultural en Salta,Salta|Cafayate|hotel|45|NOA|Adulto(26-45)|FEMENINO
-9,Trekking en el Chaltén,El Chaltén|Fitz Roy|hostel|40|Patagonia|Joven(18-25)|MASCULINO
-10,Tour de las Misiones Jesuíticas,Oberá|San Ignacio Mini|hotel|30|Mesopotamia|Joven(18-25)|INDISTINTO
-11,Turismo Rural en Córdoba,Villa General Belgrano|Alta Gracia|casa|15|Sierras Pampeanas|Adulto mayor(50 en adelante)|FEMENINO
-12,Tour por Buenos Aires,Buenos Aires|Tigre|hotel|50|Pampeana|Adulto(26-45)|MASCULINO
-13,Viaje a la Playa en Mar del Plata,Mar del Plata|Miramar|hotel|70|Pampeana|Adulto(26-45)|INDISTINTO
-14,Tour Histórico en Tucumán,San Miguel de Tucumán|Tafí del Valle|hotel|40|NOA|Joven(18-25)|FEMENINO
-15,Aventura en Jujuy,Purmamarca|Quebrada de Humahuaca|hostel|30|NOA|Joven(18-25)|MASCULINO
-16,Visita al Valle de la Luna,San Juan|Valle de la Luna|hotel|25|Cuyo|Adulto mayor(50 en adelante)|INDISTINTO
-17,Tour Nocturno en Córdoba,Córdoba|Villa Carlos Paz|hotel|60|Sierras Pampeanas|Adulto(26-45)|FEMENINO
-18,Tour Gastronómico en Rosario,Rosario|San Lorenzo|departamento|35|Pampeana|Joven(18-25)|MASCULINO
-19,Experiencia Cultural en La Plata,La Plata|Ensenada|casa|20|Pampeana|Adulto mayor(50 en adelante)|INDISTINTO
-20,Fauna en Península Valdés,Puerto Madryn|Península Valdés|hotel|50|Patagonia|Adulto(26-45)|FEMENINO
-21,Termas de Colón,Colón|Termas de Colón|hotel|30|Mesopotamia|Joven(18-25)|MASCULINO
-22,Tour por los Viñedos de Neuquén,Neuquén|San Patricio del Chañar|hostel|40|Patagonia|Joven(18-25)|INDISTINTO
-23,Experiencia Gaucha en la Pampa,Santa Rosa|General Pico|casa|25|Pampeana|Adulto mayor(50 en adelante)|FEMENINO
-24,Quebrada de las Conchas,Cafayate|Quebrada de las Conchas|hotel|35|NOA|Joven(18-25)|MASCULINO
-25,Feria Artesanal en El Bolsón,El Bolsón|Lago Puelo|departamento|30|Patagonia|Joven(18-25)|INDISTINTO
-26,Aventura de Senderismo en Bariloche,Bariloche|Cerro Tronador|hotel|45|Patagonia|Joven(18-25)|FEMENINO
-27,Escapada a la Playa en Villa Gesell,Villa Gesell|Mar de las Pampas|casa|20|Pampeana|Adulto mayor(50 en adelante)|MASCULINO
-28,Retiro de Spa en Termas de Río Hondo,Termas de Río Hondo|Termas de Río Hondo|hotel|60|NOA|Adulto(26-45)|INDISTINTO
-29,Crucero por el Glaciar en El Calafate,El Calafate|Lago Argentino|hotel|35|Patagonia|Joven(18-25)|FEMENINO
-30,Visita a San Martín de los Andes,San Martín de los Andes|Cerro Chapelco|departamento|40|Patagonia|Joven(18-25)|MASCULINO
-31,Tour Paleontológico en Trelew,Trelew|Valle Inferior del Río Chubut|hostel|25|Patagonia|Adulto mayor(50 en adelante)|INDISTINTO
-32,Mountain Biking en Purmamarca,Purmamarca|Cerro de los Siete Colores|hotel|30|NOA|Joven(18-25)|FEMENINO
-33,Escalada en Roca en Tandil,Tandil|Sierras de Tandil|hotel|45|Pampeana|Adulto(26-45)|MASCULINO
-34,Visita a Sierra de los Comechingones,Merlo|Sierra de los Comechingones|casa|20|Cuyo|Adulto mayor(50 en adelante)|INDISTINTO
-35,Jornada en la Costanera de Villa La Angostura,Villa La Angostura|Lago Nahuel Huapi|departamento|35|Patagonia|Joven(18-25)|FEMENINO
-36,Tour Gastronómico en Salta,Salta|Cachi|hotel|40|NOA|Joven(18-25)|MASCULINO
-37,Aventura en Potrerillos,Potrerillos|Embalse Potrerillos|hotel|50|Cuyo|Adulto(26-45)|INDISTINTO
-38,Senderismo en Tafí del Valle,Tafí del Valle|Cerro El Churqui|hostel|25|NOA|Adulto mayor(50 en adelante)|FEMENINO
-39,Recorrido por Viñedos en La Rioja,La Rioja|Chilecito|hotel|30|Cuyo|Joven(18-25)|MASCULINO
-40,Aventura en San Luis,San Luis|Sierras de San Luis|casa|20|Cuyo|Adulto mayor(50 en adelante)|INDISTINTO
-41,Viaje de Surf en Mar del Plata,Mar del Plata|Mar del Plata|departamento|35|Pampeana|Joven(18-25)|FEMENINO
-42,Avistamiento de Aves en Viedma,Viedma|Playa El Cóndor|hotel|40|Patagonia|Joven(18-25)|MASCULINO
-43,Paseo Costero en Villa Carlos Paz,Villa Carlos Paz|Lago San Roque|hostel|25|Sierras Pampeanas|Adulto mayor(50 en adelante)|INDISTINTO
-44,Escapada a la Playa de Las Grutas,Las Grutas|Las Grutas|hotel|30|Patagonia|Adulto mayor(50 en adelante)|FEMENINO
-45,Kayak en el Río en Rosario,Rosario|Río Paraná|casa|20|Pampeana|Adulto mayor(50 en adelante)|MASCULINO
-46,Escapada Nocturna en Villa Gesell,Villa Gesell|Mar Azul|hotel|40|Pampeana|Joven(18-25)|INDISTINTO
-47,Tour Cultural en Santa Fe,Santa Fe|Rosario|hotel|45|Pampeana|Adulto(26-45)|FEMENINO
-48,Resort de Esquí en Esquel,Bariloche|Esquel|departamento|50|Patagonia|Adulto(26-45)|MASCULINO
-49,Tour Gastronómico en Mar del Plata,Córdoba|Mar del Plata|hostel|2|Pampeana|Adulto mayor(50 en adelante)|INDISTINTO
-50,Avistamiento de Aves en El Calafate,Ushuaia|El Calafate|hotel|30|Patagonia|Joven(18-25)|FEMENINO
-51,Aventura en Tilcara,Salta|Tilcara|hostel|35|NOA|Joven(18-25)|MASCULINO
-52,Exploración en los Valles Calchaquíes,Tucumán|San Carlos|hotel|30|NOA|Adulto(26-45)|INDISTINTO
-53,Escapada a la Mesopotamia,Posadas|Iguazú|hostel|40|Mesopotamia|Adulto(26-45)|FEMENINO
-54,Descubrí Cuyo,San Juan|Mendoza|hotel|25|Cuyo|Adulto(26-45)|MASCULINO
-55,Turismo en la Pampa,Santa Rosa|General Pico|casa|15|Pampeana|Joven(18-25)|INDISTINTO
-56,Ruta del Vino en Mendoza,La Rioja|Mendoza|departamento|20|Cuyo|Adulto mayor(50 en adelante)|FEMENINO
-57,Trekking en la Sierra de Córdoba,Córdoba|Villa Carlos Paz|hostel|10|Sierras Pampeanas|Joven(18-25)|MASCULINO
-58,Circuito Histórico en Buenos Aires,Buenos Aires|La Plata|hotel|30|Pampeana|Adulto(26-45)|INDISTINTO
-59,Relax en la Costa Atlántica,Mar del Plata|Pinamar|departamento|8|Pampeana|Adulto(26-45)|FEMENINO
-60,Excursión en San Luis,San Luis|Merlo|casa|12|Cuyo|Adulto mayor(50 en adelante)|MASCULINO
-61,Paseo por las Cataratas del Iguazú,Iguazú|El Soberbio|hotel|50|Mesopotamia|Joven(18-25)|INDISTINTO
-62,Navegación en el Delta,Tigre|San Fernando|hostel|22|Pampeana|Adulto(26-45)|FEMENINO
-63,Aventura en los Esteros del Iberá,Mercedes|Colonia Carlos Pellegrini|casa|6|Mesopotamia|Adulto(26-45)|MASCULINO
-64,Turismo Rural en Catamarca,Catamarca|Belén|hotel|14|NOA|Adulto mayor(50 en adelante)|INDISTINTO
-65,Visita a los Glaciares,El Calafate|El Chaltén|departamento|30|Patagonia|Joven(18-25)|FEMENINO
-66,Recorrido por los Pueblos Andinos,Jujuy|Purmamarca|hostel|18|NOA|Adulto(26-45)|MASCULINO
-67,Turismo de Aventura en Bariloche,Neuquén|Bariloche|hotel|45|Patagonia|Adulto(26-45)|INDISTINTO
-68,Escapada de Fin de Semana en Rosario,Rosario|Santa Fe|departamento|5|Pampeana|Joven(18-25)|FEMENINO
-69,Descanso en las Termas de Río Hondo,Santiago del Estero|Termas de Río Hondo|casa|28|NOA|Adulto(26-45)|MASCULINO
-70,Turismo Activo en Mendoza,Mendoza|Tunuyán|hostel|35|Cuyo|Adulto mayor(50 en adelante)|INDISTINTO
-71,Paseo Cultural en Córdoba,Córdoba|Alta Gracia|hotel|20|Sierras Pampeanas|Joven(18-25)|FEMENINO
-72,Escapada a Tandil,Mar del Plata|Tandil|departamento|10|Pampeana|Adulto(26-45)|MASCULINO
-73,Visita a la Tierra de los Dinosaurios,Neuquén|Villa El Chocón|hostel|12|Patagonia|Joven(18-25)|INDISTINTO
-74,Turismo Cultural en Corrientes,Corrientes|Goya|casa|7|Mesopotamia|Adulto(26-45)|FEMENINO
-75,Recorrido por las Sierras de San Luis,San Luis|Villa de Merlo|hotel|16|Cuyo|Adulto mayor(50 en adelante)|MASCULINO
-76,Paseo en Lancha por el Delta del Paraná,Tigre|San Pedro|departamento|25|Pampeana|Joven(18-25)|INDISTINTO
-77,Exploración de la Selva Misionera,Posadas|El Soberbio|hostel|20|Mesopotamia|Adulto(26-45)|FEMENINO
-78,Ruta del Vino en San Juan,San Juan|Valle Fértil|hotel|15|Cuyo|Adulto(26-45)|MASCULINO
-79,Turismo de Aventura en Salta,Salta|Cafayate|departamento|30|NOA|Adulto mayor(50 en adelante)|INDISTINTO
-80,Recorrido Histórico en La Plata,La Plata|Berisso|hostel|10|Pampeana|Joven(18-25)|FEMENINO
-81,Trekking en los Andes,Mendoza|Aconcagua|hotel|35|Cuyo|Adulto(26-45)|MASCULINO
-82,Paseo en Bicicleta por las Sierras de Córdoba,Córdoba|La Falda|departamento|14|Sierras Pampeanas|Joven(18-25)|INDISTINTO
-83,Paseo en Bicicleta por Metan,Córdoba|La Falda|departamento|14|Sierras Pampeanas|Joven(18-25)|INDISTINTO
-84,Paseo en Bicicleta por Metan84,Córdoba|La Falda|departamento|14|Sierras Pampeanas|Joven(18-25)|INDISTINTO
-85,Paseo en Bicicleta por Metan 85,Córdoba|La Falda|departamento|14|Sierras Pampeanas|Joven(18-25)|INDISTINTO
+1,Viaje de Esquí en Bariloche,Bariloche|Cerro Catedral|hotel|50|Patagonia|Adulto(26-45)|INDISTINTO|mixto|aventura|neutro
+2,Aventura en Patagonia,Ushuaia|El Calafate|hostel|30|Patagonia|Joven(18-25)|FEMENINO|rurales|aventura|extrovertido
+3,Tour del Vino en Mendoza,Mendoza|San Rafael|hotel|40|Cuyo|Joven(18-25)|MASCULINO|mixto|social|neutro
+4,Exploración en Saltos del Moconá,Posadas|Saltos del Moconá|casa|20|Mesopotamia|Adulto mayor(50 en adelante)|INDISTINTO|rurales|esparcimiento|introvertido
+5,Visita a las Cataratas del Iguazú,Puerto Iguazú|Cataratas del Iguazú|hotel|60|Mesopotamia|Adulto(26-45)|FEMENINO|rurales|aventura|neutro
+6,Snowboarding en Bariloche,Bariloche|Cerro Catedral|hotel|45|Patagonia|Joven(18-25)|MASCULINO|mixto|aventura|extrovertido
+7,Trekking en el Glaciar,El Calafate|Glaciar Perito Moreno|hotel|25|Patagonia|Adulto mayor(50 en adelante)|INDISTINTO|rurales|aventura|introvertido
+8,Tour Cultural en Salta,Salta|Cafayate|hotel|45|NOA|Adulto(26-45)|FEMENINO|mixto|social|neutro
+9,Trekking en el Chaltén,El Chaltén|Fitz Roy|hostel|40|Patagonia|Joven(18-25)|MASCULINO|rurales|aventura|introvertido
+10,Tour de las Misiones Jesuíticas,Oberá|San Ignacio Mini|hotel|30|Mesopotamia|Joven(18-25)|INDISTINTO|rurales|variado|neutro
+11,Turismo Rural en Córdoba,Villa General Belgrano|Alta Gracia|casa|15|Sierras Pampeanas|Adulto mayor(50 en adelante)|FEMENINO|rurales|esparcimiento|introvertido
+12,Tour por Buenos Aires,Buenos Aires|Tigre|hotel|50|Pampeana|Adulto(26-45)|MASCULINO|urbanos|social|extrovertido
+13,Viaje a la Playa en Mar del Plata,Mar del Plata|Miramar|hotel|70|Pampeana|Adulto(26-45)|INDISTINTO|mixto|esparcimiento|neutro
+14,Tour Histórico en Tucumán,San Miguel de Tucumán|Tafí del Valle|hotel|40|NOA|Joven(18-25)|FEMENINO|mixto|variado|neutro
+15,Aventura en Jujuy,Purmamarca|Quebrada de Humahuaca|hostel|30|NOA|Joven(18-25)|MASCULINO|rurales|aventura|extrovertido
+16,Visita al Valle de la Luna,San Juan|Valle de la Luna|hotel|25|Cuyo|Adulto mayor(50 en adelante)|INDISTINTO|rurales|esparcimiento|introvertido
+17,Tour Nocturno en Córdoba,Córdoba|Villa Carlos Paz|hotel|60|Sierras Pampeanas|Adulto(26-45)|FEMENINO|urbanos|social|extrovertido
+18,Tour Gastronómico en Rosario,Rosario|San Lorenzo|departamento|35|Pampeana|Joven(18-25)|MASCULINO|urbanos|social|extrovertido
+19,Experiencia Cultural en La Plata,La Plata|Ensenada|casa|20|Pampeana|Adulto mayor(50 en adelante)|INDISTINTO|urbanos|esparcimiento|introvertido
+20,Fauna en Península Valdés,Puerto Madryn|Península Valdés|hotel|50|Patagonia|Adulto(26-45)|FEMENINO|rurales|aventura|neutro
+21,Termas de Colón,Colón|Termas de Colón|hotel|30|Mesopotamia|Joven(18-25)|MASCULINO|rurales|esparcimiento|neutro
+22,Tour por los Viñedos de Neuquén,Neuquén|San Patricio del Chañar|hostel|40|Patagonia|Joven(18-25)|INDISTINTO|rurales|social|neutro
+23,Experiencia Gaucha en la Pampa,Santa Rosa|General Pico|casa|25|Pampeana|Adulto mayor(50 en adelante)|FEMENINO|rurales|esparcimiento|introvertido
+24,Quebrada de las Conchas,Cafayate|Quebrada de las Conchas|hotel|35|NOA|Joven(18-25)|MASCULINO|rurales|aventura|extrovertido
+25,Feria Artesanal en El Bolsón,El Bolsón|Lago Puelo|departamento|30|Patagonia|Joven(18-25)|INDISTINTO|rurales|social|extrovertido
+26,Aventura de Senderismo en Bariloche,Bariloche|Cerro Tronador|hotel|45|Patagonia|Joven(18-25)|FEMENINO|rurales|aventura|extrovertido
+27,Escapada a la Playa en Villa Gesell,Villa Gesell|Mar de las Pampas|casa|20|Pampeana|Adulto mayor(50 en adelante)|MASCULINO|mixto|esparcimiento|neutro
+28,Retiro de Spa en Termas de Río Hondo,Termas de Río Hondo|Termas de Río Hondo|hotel|60|NOA|Adulto(26-45)|INDISTINTO|rurales|esparcimiento|introvertido
+29,Crucero por el Glaciar en El Calafate,El Calafate|Lago Argentino|hotel|35|Patagonia|Joven(18-25)|FEMENINO|rurales|aventura|neutro
+30,Visita a San Martín de los Andes,San Martín de los Andes|Cerro Chapelco|departamento|40|Patagonia|Joven(18-25)|MASCULINO|mixto|aventura|extrovertido
+31,Tour Paleontológico en Trelew,Trelew|Valle Inferior del Río Chubut|hostel|25|Patagonia|Adulto mayor(50 en adelante)|INDISTINTO|rurales|esparcimiento|neutro
+32,Mountain Biking en Purmamarca,Purmamarca|Cerro de los Siete Colores|hotel|30|NOA|Joven(18-25)|FEMENINO|rurales|aventura|extrovertido
+33,Escalada en Roca en Tandil,Tandil|Sierras de Tandil|hotel|45|Pampeana|Adulto(26-45)|MASCULINO|mixto|aventura|extrovertido
+34,Visita a Sierra de los Comechingones,Merlo|Sierra de los Comechingones|casa|20|Cuyo|Adulto mayor(50 en adelante)|INDISTINTO|rurales|esparcimiento|introvertido
+35,Jornada en la Costanera de Villa La Angostura,Villa La Angostura|Lago Nahuel Huapi|departamento|35|Patagonia|Joven(18-25)|FEMENINO|mixto|esparcimiento|neutro
+36,Tour Gastronómico en Salta,Salta|Cachi|hotel|40|NOA|Joven(18-25)|MASCULINO|mixto|social|extrovertido
+37,Aventura en Potrerillos,Potrerillos|Embalse Potrerillos|hotel|50|Cuyo|Adulto(26-45)|INDISTINTO|rurales|aventura|neutro
+38,Senderismo en Tafí del Valle,Tafí del Valle|Cerro El Churqui|hostel|25|NOA|Adulto mayor(50 en adelante)|FEMENINO|rurales|aventura|introvertido
+39,Recorrido por Viñedos en La Rioja,La Rioja|Chilecito|hotel|30|Cuyo|Joven(18-25)|MASCULINO|rurales|social|neutro
+40,Aventura en San Luis,San Luis|Sierras de San Luis|casa|20|Cuyo|Adulto mayor(50 en adelante)|INDISTINTO|rurales|aventura|neutro
+41,Viaje de Surf en Mar del Plata,Mar del Plata|Mar del Plata|departamento|35|Pampeana|Joven(18-25)|FEMENINO|mixto|aventura|extrovertido
+42,Avistamiento de Aves en Viedma,Viedma|Playa El Cóndor|hotel|40|Patagonia|Joven(18-25)|MASCULINO|rurales|esparcimiento|introvertido
+43,Paseo Costero en Villa Carlos Paz,Villa Carlos Paz|Lago San Roque|hostel|25|Sierras Pampeanas|Adulto mayor(50 en adelante)|INDISTINTO|rurales|esparcimiento|neutro
+44,Escapada a la Playa de Las Grutas,Las Grutas|Las Grutas|hotel|30|Patagonia|Adulto mayor(50 en adelante)|FEMENINO|mixto|esparcimiento|neutro
+45,Kayak en el Río en Rosario,Rosario|Río Paraná|casa|20|Pampeana|Adulto mayor(50 en adelante)|MASCULINO|mixto|aventura|neutro
+46,Escapada Nocturna en Villa Gesell,Villa Gesell|Mar Azul|hotel|40|Pampeana|Joven(18-25)|INDISTINTO|mixto|social|extrovertido
+47,Tour Cultural en Santa Fe,Santa Fe|Rosario|hotel|45|Pampeana|Adulto(26-45)|FEMENINO|urbanos|social|neutro
+48,Resort de Esquí en Esquel,Bariloche|Esquel|departamento|50|Patagonia|Adulto(26-45)|MASCULINO|rurales|aventura|neutro
+49,Tour Gastronómico en Mar del Plata,Córdoba|Mar del Plata|hostel|2|Pampeana|Adulto mayor(50 en adelante)|INDISTINTO|mixto|social|neutro
+50,Avistamiento de Aves en El Calafate,Ushuaia|El Calafate|hotel|30|Patagonia|Joven(18-25)|FEMENINO|rurales|esparcimiento|neutro
+51,Aventura en Tilcara,Salta|Tilcara|hostel|35|NOA|Joven(18-25)|MASCULINO|rurales|aventura|extrovertido
+52,Exploración en los Valles Calchaquíes,Tucumán|San Carlos|hotel|30|NOA|Adulto(26-45)|INDISTINTO|rurales|aventura|neutro
+53,Escapada a la Mesopotamia,Posadas|Iguazú|hostel|40|Mesopotamia|Adulto(26-45)|FEMENINO|rurales|esparcimiento|introvertido
+54,Descubrí Cuyo,San Juan|Mendoza|hotel|25|Cuyo|Adulto(26-45)|MASCULINO|mixto|social|neutro
+55,Turismo en la Pampa,Santa Rosa|General Pico|casa|15|Pampeana|Joven(18-25)|INDISTINTO|rurales|esparcimiento|neutro
+56,Ruta del Vino en Mendoza,La Rioja|Mendoza|departamento|20|Cuyo|Adulto mayor(50 en adelante)|FEMENINO|rurales|social|introvertido
+57,Trekking en la Sierra de Córdoba,Córdoba|Villa Carlos Paz|hostel|10|Sierras Pampeanas|Joven(18-25)|MASCULINO|rurales|aventura|extrovertido
+58,Circuito Histórico en Buenos Aires,Buenos Aires|La Plata|hotel|30|Pampeana|Adulto(26-45)|INDISTINTO|urbanos|social|neutro
+59,Relax en la Costa Atlántica,Mar del Plata|Pinamar|departamento|8|Pampeana|Adulto(26-45)|FEMENINO|mixto|esparcimiento|introvertido
+60,Excursión en San Luis,San Luis|Merlo|casa|12|Cuyo|Adulto mayor(50 en adelante)|MASCULINO|rurales|esparcimiento|introvertido
+61,Paseo por las Cataratas del Iguazú,Iguazú|El Soberbio|hotel|50|Mesopotamia|Joven(18-25)|INDISTINTO|rurales|esparcimiento|neutro
+62,Navegación en el Delta,Tigre|San Fernando|hostel|22|Pampeana|Adulto(26-45)|FEMENINO|rurales|aventura|neutro
+63,Aventura en los Esteros del Iberá,Mercedes|Colonia Carlos Pellegrini|casa|6|Mesopotamia|Adulto(26-45)|MASCULINO|rurales|aventura|extrovertido
+64,Turismo Rural en Catamarca,Catamarca|Belén|hotel|14|NOA|Adulto mayor(50 en adelante)|INDISTINTO|rurales|esparcimiento|introvertido
+65,Visita a los Glaciares,El Calafate|El Chaltén|departamento|30|Patagonia|Joven(18-25)|FEMENINO|rurales|aventura|neutro
+66,Recorrido por los Pueblos Andinos,Jujuy|Purmamarca|hostel|18|NOA|Adulto(26-45)|MASCULINO|rurales|aventura|neutro
+67,Turismo de Aventura en Bariloche,Neuquén|Bariloche|hotel|45|Patagonia|Adulto(26-45)|INDISTINTO|rurales|aventura|extrovertido
+68,Escapada de Fin de Semana en Rosario,Rosario|Santa Fe|departamento|5|Pampeana|Joven(18-25)|FEMENINO|urbanos|esparcimiento|introvertido
+69,Descanso en las Termas de Río Hondo,Santiago del Estero|Termas de Río Hondo|casa|28|NOA|Adulto(26-45)|MASCULINO|rurales|esparcimiento|introvertido
+70,Turismo Activo en Mendoza,Mendoza|Tunuyán|hostel|35|Cuyo|Adulto mayor(50 en adelante)|INDISTINTO|rurales|aventura|neutro
+71,Paseo Cultural en Córdoba,Córdoba|Alta Gracia|hotel|20|Sierras Pampeanas|Joven(18-25)|FEMENINO|urbanos|social|introvertido
+72,Escapada a Tandil,Mar del Plata|Tandil|departamento|10|Pampeana|Adulto(26-45)|MASCULINO|rurales|esparcimiento|neutro
+73,Visita a la Tierra de los Dinosaurios,Neuquén|Villa El Chocón|hostel|12|Patagonia|Joven(18-25)|INDISTINTO|rurales|aventura|neutro
+74,Turismo Cultural en Corrientes,Corrientes|Goya|casa|7|Mesopotamia|Adulto(26-45)|FEMENINO|rurales|social|introvertido
+75,Recorrido por las Sierras de San Luis,San Luis|Villa de Merlo|hotel|16|Cuyo|Adulto mayor(50 en adelante)|MASCULINO|rurales|esparcimiento|introvertido
+76,Paseo en Lancha por el Delta del Paraná,Tigre|San Pedro|departamento|25|Pampeana|Joven(18-25)|INDISTINTO|rurales|aventura|extrovertido
+77,Exploración de la Selva Misionera,Posadas|El Soberbio|hostel|20|Mesopotamia|Adulto(26-45)|FEMENINO|rurales|aventura|neutro
+78,Ruta del Vino en San Juan,San Juan|Valle Fértil|hotel|15|Cuyo|Adulto(26-45)|MASCULINO|rurales|social|neutro
+79,Turismo de Aventura en Salta,Salta|Cafayate|departamento|30|NOA|Adulto mayor(50 en adelante)|INDISTINTO|rurales|aventura|extrovertido
+80,Recorrido Histórico en La Plata,La Plata|Berisso|hostel|10|Pampeana|Joven(18-25)|FEMENINO|urbanos|social|introvertido
+81,Trekking en los Andes,Mendoza|Aconcagua|hotel|35|Cuyo|Adulto(26-45)|MASCULINO|rurales|aventura|extrovertido
+82,Paseo en Bicicleta por las Sierras de Córdoba,Córdoba|La Falda|departamento|14|Sierras Pampeanas|Joven(18-25)|INDISTINTO|rurales|aventura|neutro
