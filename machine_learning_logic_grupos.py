@@ -125,3 +125,45 @@ if __name__ == "__main__":
     }
     usuario_en = []
     print(machine_learning_logic_grupos(usuario_en, preferencias_usuario))
+
+
+def machine_learning_add_grupo(nuevo_grupo):
+    # Cargar el archivo CSV existente
+    try:
+        gruposcopia = pd.read_csv('grupos.csv')
+    except FileNotFoundError:
+        return jsonify({"error": "El archivo grupos.csv no se encuentra"})
+
+    # Calcular el nuevo grupoID
+    nuevo_grupo_id = gruposcopia["grupoID"].max() + 1 if not gruposcopia.empty else 1
+
+    # Crear un nuevo DataFrame con el grupo a agregar
+    nuevo_grupo_df = pd.DataFrame([{
+        "grupoID": nuevo_grupo_id,
+        # Concatenar nombre con el ID, asegurando que ambos sean cadenas
+        "nombre": f"{nuevo_grupo['nombre']} {str(nuevo_grupo_id)}",
+        "etiquetas": "|".join([
+            nuevo_grupo["origen"],
+            nuevo_grupo["destino"],
+            nuevo_grupo["hospedaje"],
+            nuevo_grupo["cantidad_personas"],
+            nuevo_grupo["region"],
+            nuevo_grupo["rango_edad"],
+            nuevo_grupo["preferencia_sexo"],
+            nuevo_grupo["lugares_preferidos"],
+            nuevo_grupo["hobbies"],
+            nuevo_grupo["personalidad_agrado"]
+        ])
+    }])
+
+    # Concatenar el nuevo grupo al DataFrame original
+    gruposcopia = pd.concat([gruposcopia, nuevo_grupo_df], ignore_index=True)
+
+    # Guardar el DataFrame actualizado en el CSV
+    try:
+        gruposcopia.to_csv('grupos.csv', index=False)
+    except Exception as e:
+        return jsonify({"error": f"Error al guardar el archivo CSV: {str(e)}"})
+
+    return jsonify("Se agregó correctamente el grupo a la base del conocimiento")
+
