@@ -149,7 +149,10 @@ def machine_learning_add_grupo(nuevo_grupo):
             nuevo_grupo["cantidad_personas"],
             nuevo_grupo["region"],
             nuevo_grupo["rango_edad"],
-            nuevo_grupo["preferencia_sexo"]
+            nuevo_grupo["preferencia_sexo"],
+            nuevo_grupo["lugares_preferidos"],
+            nuevo_grupo["hobbies"],
+            nuevo_grupo["personalidad_agrado"]
         ])
     }])
 
