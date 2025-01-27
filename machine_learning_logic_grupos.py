@@ -95,7 +95,7 @@ def machine_learning_logic_grupos(usuario_en, preferencias_usuario):
 
 
         # Realizar un join entre las recomendaciones y la tabla de películas
-        recomendaciones_organizadas = pd.DataFrame(recom, columns=['Similaridad'])
+        recomendaciones_organizadas = pd.DataFrame(recom, columns=['similaridad'])
         recomendaciones_organizadas.reset_index(inplace=True)
         recomendaciones_organizadas.rename(columns={'index': 'grupoID'}, inplace=True)
 
