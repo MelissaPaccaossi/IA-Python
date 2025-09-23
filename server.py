@@ -1,7 +1,7 @@
 # server.py
 
 from flask import Flask, request, jsonify
-from machine_learning_logic_grupos import machine_learning_logic_grupos, machine_learning_add_grupo
+from machine_learning_logic_grupos import machine_learning_logic_grupos, machine_learning_add_grupo,machine_learning_logic_grupos_basico
 
 app = Flask(__name__)
 
@@ -25,6 +25,17 @@ def agregar_grupo():
     respuesta = machine_learning_add_grupo(nuevo_grupo)
     
     return respuesta
+
+
+@app.route('/recomendarGruposBasico', methods=['POST'])
+def recomendar_grupos_basico():
+    data = request.get_json()
+    preferencias_perfil_usuario = data.get('preferencias_perfil_usuario', {})
+    
+    # Llamar a la nueva función de machine learning para recomendaciones básicas
+    recomendaciones = machine_learning_logic_grupos_basico(preferencias_perfil_usuario)
+    
+    return recomendaciones
 
 if __name__ == '__main__':
     app.run(debug=True)

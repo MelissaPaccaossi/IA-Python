@@ -168,3 +168,60 @@ def machine_learning_add_grupo(nuevo_grupo):
 
     return jsonify("Se agregó correctamente el grupo a la base del conocimiento")
 
+
+# Recomendacion Basica
+
+def machine_learning_logic_grupos_basico(preferencias_perfil_usuario):
+    # Cargar los datos
+    gruposcopia = pd.read_csv('grupos.csv')
+
+    # Dividir las etiquetas en listas
+    gruposcopia['etiquetas'] = gruposcopia['etiquetas'].str.split('|')
+
+    # Crear una copia del DataFrame para la codificación
+    grupos_co = gruposcopia.copy()
+
+    # Realizar el one-hot encoding de las etiquetas
+    for index, row in gruposcopia.iterrows():
+        for etiqueta in row['etiquetas']:
+            grupos_co.at[index, etiqueta] = 1
+
+    # Llenar los valores NaN con 0
+    grupos_co = grupos_co.fillna(0)
+
+    # Crear perfil de usuario básico con las preferencias recibidas
+    preferencias_codificadas = pd.DataFrame(columns=grupos_co.columns[3:], index=[0])
+    
+    # Mapear los nombres de las preferencias a las etiquetas del CSV
+    mapeo_preferencias = {
+        "rango_edad": lambda x: x,
+        "genero": lambda x: x,
+        "hobbies": lambda x: x,
+        "preferred_places": lambda x: x,
+        "preferred_personalities": lambda x: x,
+        "religion": lambda x: x  # ← NUEVO: agregar religión
+    }
+    
+    # Codificar las preferencias del usuario
+    for clave, valor in preferencias_perfil_usuario.items():
+        if clave in mapeo_preferencias:
+            etiqueta = mapeo_preferencias[clave](valor)
+            if etiqueta in preferencias_codificadas.columns:
+                preferencias_codificadas.at[0, etiqueta] = 1
+
+    # Llenar valores faltantes con 0
+    preferencias_codificadas = preferencias_codificadas.fillna(0)
+
+    # Calcular la similaridad
+    grupos_codificados = grupos_co.drop(['grupoID', 'nombre', 'etiquetas'], axis=1)
+    similaridad = grupos_codificados.dot(preferencias_codificadas.transpose()).sum(axis=1)
+
+    # Añadir la similaridad al DataFrame original
+    gruposcopia['similaridad'] = similaridad
+
+    # Ordenar por similaridad y obtener los mejores resultados
+    recomendaciones = gruposcopia.sort_values(by='similaridad', ascending=False).head(5)
+
+    # Devolver la misma estructura que el endpoint original
+    recomendaciones_dict = recomendaciones[['grupoID', 'nombre', 'etiquetas', 'similaridad']].to_dict(orient='records')
+    return jsonify(recomendaciones_dict)
